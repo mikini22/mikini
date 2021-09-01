@@ -49,7 +49,7 @@ exit;
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1, 
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-      "Authorization: Bearer sk_live_5d08bc7d6623597b72dc535f479e20504134142f",
+      "Authorization: Bearer sk_test_016ebf18dd0328db077a2048f8d6cc29fa4b7116",
       "Cache-Control: no-cache",
     ),
   ));

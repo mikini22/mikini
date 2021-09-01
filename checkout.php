@@ -464,7 +464,7 @@ paymentForm.addEventListener("submit", payWithPaystack, false);
 function payWithPaystack(e) {
   e.preventDefault();
   let handler = PaystackPop.setup({
-    key: 'pk_live_388ce1e2e52b001144ef9ebc75536681b92c5aed', // Replace with your public key
+    key: 'pk_test_46abc4f7370221336bb54bae90cccbde844edf1d', // Replace with your public key
     email: document.getElementById("email-address").value,
     amount: document.getElementById('amount').value * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
     name: document.getElementById("name").value,
